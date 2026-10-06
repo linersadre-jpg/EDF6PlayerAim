@@ -1,0 +1,13 @@
+# build output
+build/
+out/
+*.obj
+*.pdb
+*.ilk
+
+# the game's own plugin log
+*.log
+
+# python caches
+__pycache__/
+*.pyc
