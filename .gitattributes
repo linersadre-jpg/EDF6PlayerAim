@@ -1,0 +1,13 @@
+﻿# Keep the repository text files at LF and check them out as LF, so a clone holds exactly the same bytes that
+# were verified here (Git's core.autocrlf would otherwise rewrite them to CRLF on Windows).
+
+* text=auto eol=lf
+
+# Batch files run fine with LF in cmd.exe, but keep them obvious:
+*.cmd text eol=lf
+*.bat text eol=lf
+
+# Anything that must never be touched:
+*.png binary
+*.dll binary
+*.ini text eol=lf
